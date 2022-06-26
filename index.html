@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Transform</title>
+
+    <style>
+      h1 {
+        background-color: rgb(202, 173, 178);
+        border: 5px solid red;
+        color: aliceblue;
+        padding: 0.7em;
+        width: 300px;
+        font-size: 1.2em;
+        text-align: center;
+        /* To set elements nicely at the center of page using margin */
+        margin: 30px auto;
+        font-family: "Courier New", Courier, monospace;
+        font-weight: bold;
+      }
+
+      /* selecting each h1 and transform */
+      #one {
+        background-color: rgb(117, 117, 225);
+        transform: rotate(40deg);
+      }
+      #two {
+        background-color: rgb(240, 27, 27);
+        transform: scale(0.6);
+      }
+
+      #three {
+        background-color: gray;
+        transform: scaleX(1.5);
+      }
+
+      #four {
+        background-color: rgb(240, 222, 24);
+        transform: translate(150px);
+      }
+      #five {
+        background-color: rgb(171, 76, 171);
+        transform: translate(80px, -20px);
+      }
+      #six {
+        background-color: turquoise;
+        transform: skew(30deg);
+      }
+      #seven {
+        background-color: rgb(146, 86, 69);
+        transform: skew(30deg, 20deg);
+      }
+      #eight {
+        background-color: pink;
+        transform: rotate(90deg) scale(1.5);
+      }
+    </style>
+  </head>
+
+  <body>
+    <setion>
+      <h1 id="one">Transform Me!</h1>
+      <h1 id="two">Transform Me!</h1>
+      <h1 id="three">Transform Me!</h1>
+      <h1 id="four">Transform Me!</h1>
+    </setion>
+    <setion>
+      <h1 id="five">Transform Me!</h1>
+      <h1 id="six">Transform Me!</h1>
+      <h1 id="seven">Transform Me!</h1>
+      <h1 id="eight">Transform Me!</h1>
+    </setion>
+  </body>
+</html>
